@@ -1,0 +1,57 @@
+Terminal: npx create-react-app rapid-typer --template typescript
+Create folders in src:
+    components: For different parts of the web app
+    helpers
+    commands
+    styles: For all the scss files
+Delete everything except react-app-env.d.ts and setuptests.ts from src
+Create in src:
+    App.tsx
+    index.tsx
+    index.scss
+npm install -g react-redux
+Create in components:
+    Footer.tsx
+    Header.tsx
+    Result.tsx
+    Test.tsx
+Create in styles:
+    Footer.scss
+    Header.scss
+    Result.scss
+    Test.scss
+    themes.scss
+    AnimatedTheme.scss
+Create in helpers:
+    recordTest.ts
+    resetTest.ts
+    startTimer.ts
+    words.json
+Create in commands:
+    actions.ts
+    reducer.ts
+    store.ts
+Delete from public: All react icons and logos
+Create a logo and name it favicon.png
+Paste favicon.png in public
+Change Title, content and icon of page in index.html
+Change sources in manifest.json to favicon.png
+Add words into words.json
+Copy the words from https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/
+Use multicursor in VS Code to add , and "" :https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
+Paste the words in MS Word
+Select the whole text
+Press ctrl+H
+Find ^l and replace with ,^l
+In VS code select one comma and press Ctrl+Shift+L
+Then move the multicursor to add ""
+Configure all the stylesheets
+SCSS contains all the features of CSS
+and contains more features that are not present in CSS
+which makes it a good choice for developers to use it.
+SCSS is full of advanced features.
+SCSS offers variables,
+you can shorten your code by using variables.
+It is a great advantage over conventional CSS
+Configure all the components
+App. js is your App component, whereas index. js is the "entry point" for your application

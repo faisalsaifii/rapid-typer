@@ -1,0 +1,43 @@
+// . -> CLASS SELECTOR
+// # -> ID SELECTOR
+.animated-theme {
+    display: block;
+    // A block-level element always starts on a new line and takes up the full width available
+    position: fixed;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    transform: translate(-50%, -50%);
+    // repositions an element in the horizontal and/or vertical directions
+    overflow: hidden;
+    // The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area
+    // hidden prevents scrollbars from showing up, even when they're necessary
+    z-index: 99;
+    // The z-index property specifies the stack order of an element.
+    // An element with greater stack order is always in front of an element with a lower stack order.
+    animation: grow 1s ease-in-out;
+    // An animation lets an element gradually change from one style to another
+    &.default {
+        // The parent selector, & , is a special selector invented by Sass that's used in nested selectors to refer to the outer selector
+        background-color: black;
+    }
+    @keyframes grow {
+        // The @keyframes rule specifies the animation code
+        0% {
+            min-height: 0;
+            min-width: 0;
+        }
+        80% {
+            min-width: 4000px;
+            min-height: 4000px;
+            opacity:1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+
+
+
+
+}
