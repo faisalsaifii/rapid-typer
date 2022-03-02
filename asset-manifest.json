@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rapid-typer/static/css/main.7d7d504f.css",
+    "main.js": "/rapid-typer/static/js/main.ce669d78.js",
+    "index.html": "/rapid-typer/index.html",
+    "main.7d7d504f.css.map": "/rapid-typer/static/css/main.7d7d504f.css.map",
+    "main.ce669d78.js.map": "/rapid-typer/static/js/main.ce669d78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d7d504f.css",
+    "static/js/main.ce669d78.js"
+  ]
+}
