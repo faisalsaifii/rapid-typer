@@ -3,8 +3,8 @@ import {
 	backtrackWord,
 	setChar,
 	setTypedWord,
-} from "store/actions";
-import { store } from "store/store";
+} from "../store/actions";
+import { store } from "../store/store";
 import { resetTest } from "./resetTest";
 import { startTimer } from "./startTimer";
 

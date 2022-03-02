@@ -1,5 +1,5 @@
-import { resetTimer } from "store/actions";
-import { store } from "store/store";
+import { resetTimer } from "../store/actions";
+import { store } from "../store/store";
 
 export const resetTest = () => {
 	const { dispatch, getState } = store;

@@ -1,10 +1,10 @@
-import { resetTest } from "helpers/resetTest";
+import { resetTest } from "../helpers/resetTest";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setTheme, setTime } from "store/actions";
-import { State } from "store/reducer";
-import "stylesheets/Header.scss";
-import "stylesheets/AnimatedTheme.scss";
+import { setTheme, setTime } from "../store/actions";
+import { State } from "../store/reducer";
+import "../stylesheets/Header.scss";
+import "../stylesheets/AnimatedTheme.scss";
 
 interface Options {
 	time: number[];
@@ -101,7 +101,7 @@ export default function Header() {
 	return (
 		<header className={timerId ? "hidden" : undefined}>
 			<a href="." className="brand">
-				typing-test
+				Rapid Typer
 			</a>
 			<div className="buttons">
 				{Object.entries(options).map(([option, choices]) => (

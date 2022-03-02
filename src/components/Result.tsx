@@ -1,7 +1,7 @@
-import { resetTest } from "helpers/resetTest";
+import { resetTest } from "../helpers/resetTest";
 import { useSelector } from "react-redux";
-import { State } from "store/reducer";
-import "stylesheets/Result.scss";
+import { State } from "../store/reducer";
+import "../stylesheets/Result.scss";
 
 export default function Result() {
 	const { wordList, typedHistory, currWord, timeLimit } = useSelector(

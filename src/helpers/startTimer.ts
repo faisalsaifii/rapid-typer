@@ -1,5 +1,5 @@
-import { setTimerId, timerDecrement } from "store/actions";
-import { store } from "store/store";
+import { setTimerId, timerDecrement } from "../store/actions";
+import { store } from "../store/store";
 
 export const startTimer = () => {
 	const { dispatch } = store;

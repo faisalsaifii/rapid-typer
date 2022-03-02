@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setRef, setCaretRef } from "store/actions";
-import { State } from "store/reducer";
-import "stylesheets/Test.scss";
+import { setRef, setCaretRef } from "../store/actions";
+import { State } from "../store/reducer";
+import "../stylesheets/Test.scss";
 
 export default function Test() {
 	const { typedWord, currWord, timer, wordList, typedHistory } = useSelector(
